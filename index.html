@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Benford's Law Checker</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Benford's Law Checker</h1>
+
+    <div class="form-group">
+      <label for="input">Enter data:</label><br>
+      <textarea id="input" rows="10" cols="50" class="form-control"></textarea><br>
+    </div>
+
+    <button onclick="checkData()" class="btn btn-primary">Check</button>
+    <button onclick="resetData()" class="btn btn-secondary">Reset</button>
+
+    <p id="result"></p>
+
+    <script src="index.js"></script>
+  </div>
+
+</body>
+
+</html>
